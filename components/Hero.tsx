@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { NavPage } from '../types';
-import { ArrowRight, CheckCircle2, Star } from 'lucide-react';
+import { ArrowRight, CheckCircle2 } from 'lucide-react';
 import { generateImage } from '../services/geminiService';
 
 interface HeroProps {
@@ -112,19 +112,6 @@ const Hero: React.FC<HeroProps> = ({ setPage }) => {
           <div className="absolute inset-0 bg-gradient-to-tr from-slate-900/40 to-transparent mix-blend-multiply"></div>
           <div className="absolute inset-0 bg-gradient-to-l from-transparent via-transparent to-white/90 lg:to-transparent"></div>
           <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-white to-transparent lg:hidden"></div>
-          
-          {/* Floating Badge */}
-          <div className="absolute bottom-10 right-10 hidden lg:block bg-white/95 backdrop-blur-md p-4 rounded-2xl shadow-2xl border border-white/50 animate-bounce" style={{ animationDuration: '3s' }}>
-            <div className="flex items-center gap-3">
-               <div className="bg-yellow-100 p-2 rounded-full">
-                 <Star className="h-6 w-6 text-yellow-600 fill-yellow-600" />
-               </div>
-               <div>
-                 <p className="text-sm text-gray-500 font-medium">Success Rate</p>
-                 <p className="text-xl font-bold text-gray-900">98%</p>
-               </div>
-            </div>
-          </div>
         </div>
       </div>
 
