@@ -189,13 +189,13 @@ const ContactForm: React.FC = () => {
                     <div className="ml-4">
                        <p className="text-sm text-gray-400">Follow Us</p>
                        <a 
-                        href="https://www.instagram.com/sankeerth__008?igsh=MW95OWdheTZhd3Y1NA%3D%3D&utm_source=qr" 
+                        href="https://www.instagram.com/unitor_25?igsh=NW01dTYwNnVlaHRo&utm_source=qr" 
                         target="_blank" 
                         rel="noreferrer" 
-                        aria-label="Follow us on Instagram @sankeerth__008"
+                        aria-label="Follow us on Instagram @unitor_25"
                         className="text-lg font-semibold hover:text-red-400 transition-colors inline-flex items-center"
                        >
-                        @sankeerth__008 <ArrowRight className="ml-1 h-4 w-4" />
+                        @unitor_25 <ArrowRight className="ml-1 h-4 w-4" />
                        </a>
                     </div>
                   </div>
